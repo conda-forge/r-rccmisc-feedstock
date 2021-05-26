@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: rccmisc_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/rccmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rccmisc/rccmisc_{{ version }}.tar.gz
@@ -38,7 +37,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=rccmisc
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Functions either required by other Swedish Regional Cancer Center packages or standalone
     functions outside the scope of other packages.
   license_family: GPL2
@@ -47,9 +46,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
