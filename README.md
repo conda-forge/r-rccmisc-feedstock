@@ -1,11 +1,11 @@
-About r-rccmisc
-===============
+About r-rccmisc-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rccmisc-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=rccmisc
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rccmisc-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions either required by other Swedish Regional Cancer Center packages or standalone functions outside the scope of other packages.
 
